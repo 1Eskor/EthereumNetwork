@@ -1,0 +1,71 @@
+﻿<!doctype html>
+
+<html>
+
+
+<head>
+	<title>
+		marketcap
+	</title>
+	<script src="EthBlock.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+
+</head>
+
+<body>
+	
+	<h5>Ethereum Network</h5>
+
+	
+
+	<div id="box">
+
+		Transaction Count of : 
+		<div id="eth-to-btc"></div> 
+
+		<form>
+			<input id="addressInput" value="user input">
+			<button class="button" onclick="eth_TransactionCount(event)"> insert address</button>
+		</form>
+	</div>
+
+	<div id="box">
+
+		Last Block : 
+		<div id="lastBlock"></div> 
+
+		<form>
+			
+			<button class="button" onclick="eth_LastBlock(event)"> update</button>
+		</form>
+	</div>
+
+	<div id="box">
+
+		Last Ethereum Price: 
+		<div id="lastEthereumPrice"></div> 
+
+		<form>
+			
+			<button class="button" onclick="eth_getLastEtherPrice(event)"> update</button>
+		</form>
+	</div>
+
+	<div id="box">
+
+		Block and Uncle Rewards by Block Number : 
+		<div id="BlockUncleRewardsByBlockNumber"></div> 
+
+		<form>
+		
+			<button class="button" onclick="eth_getBlockAndUncleRewardsByBlockNumber(event)"> update</button>
+		</form>
+	</div>
+
+
+</body>
+
+
+
+</html>

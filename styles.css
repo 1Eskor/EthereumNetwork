@@ -1,0 +1,12 @@
+body {
+    background-color: slateblue;
+    color: blue;
+}
+
+#box {
+    background-color: #c2f000;
+    width: 300px;
+    border: 25px solid#435300;
+    padding: 25px;
+    margin: 25px;
+}

@@ -5,7 +5,7 @@ eth_TransactionCount = async (e) => {
     // let button = document.getElementById("button")
 
     let address = document.getElementById("addressInput").value;
-    console.log(address);
+    console.log(address)
 
 
 
